@@ -15,7 +15,7 @@ services:
       - database
 
   backend:
-    image: rgitlab.studionx.ru:443/id/images/fpm:7.3-2
+    image: bitnami/php-fpm:7.4.29
     volumes:
       - ./src:/opt/back
     working_dir: /opt/ba
